@@ -1,4 +1,4 @@
-import { Back, CheckMarkIcon, FacebookIcon, GoogleIcon } from "../images";
+import { BackIcon, CheckMarkIcon, FacebookIcon, GoogleIcon } from "../images";
 import InputComp from "../components/InputComp";
 import LogOrSign from "../components/LogOrSign";
 import LoginForm from "../components/LoginForm";
@@ -12,7 +12,9 @@ export default function () {
 	return (
 		<>
 			<main className="bg-gradient-to-bl from-[#FA4A6F] to-[#CE4CE6] min-h-screen w-full flex flex-col items-center justify-around relative">
-				<Link to="/" className="absolute left-0 top-0"><img src={Back} alt="back image" className="h-8 m-4" /></Link>
+				<Link to="/" className="absolute left-0 top-0">
+					<img src={BackIcon} alt="back icon" className="h-8 m-4" />
+				</Link>
 				<div className="h-10 w-10 bg-[#EEEEEE] rounded-xl shadow-sm shadow-stone-900/50 " />
 				<Tabs
 					// tabs={["login", "sign", "gee"]}

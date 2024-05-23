@@ -1,4 +1,31 @@
 export { default as CheckMarkIcon } from "./check-mark-icon.svg";
 export { default as GoogleIcon } from "./google.svg";
 export { default as FacebookIcon } from "./facebook.svg";
-export { default as Back } from "./back.png";
+export { default as BackIcon } from "./back.png";
+export { default as Bubbles } from "./bubbles.svg";
+export { default as InventoryIcon } from "./inventory.svg";
+export { default as LogoutIcon } from "./logout.svg";
+export { default as OrdersIcon } from "./orders.svg";
+export { default as SearchIcon } from "./search_icon.svg";
+export { default as WalletIcon } from "./wallet.svg";
+export { default as SettingsIcon } from "./settings.svg";
+// export { default as MessagesIcon } from "./messages.svg";
+//export { default as ActivityIcon } from "./activity.svg";
+export { default as ArrowIcon } from "./arrow.svg";
+export { default as AddIcon } from "./add.svg";
+export { default as HomeIcon } from "./home.svg";
+export { default as DashboardIcon } from "./dashboard.svg";
+export { default as CalenderIcon } from "./calendar.svg";
+// Home
+export { default as CartIcon } from "./cart.svg";
+export { default as ForwardIcon } from "./forward.svg";
+export { default as GotoIcon } from "./goto.svg";
+export { default as MoreIcon } from "./more.svg";
+export { default as CoinIcon } from "./coin.svg";
+export { default as SettingCIcon } from "./settingcircle.svg";
+export { default as SkewIcon } from "./skewarrow.svg";
+export { default as Check } from "./check.svg";
+export { default as Move } from "./move.svg";
+
+export * from "./message-icon";
+export * from "./activity-icon";

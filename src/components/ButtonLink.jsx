@@ -19,6 +19,7 @@ export default function ButtonLink({
 			"text-[#E23595]": color === "pink",
 			"text-[#C25457]": color === "red",
 			"text-[#3D64C3]": color === "blue",
+			"text-white": color === "white",
 		},
 	);
 
@@ -32,7 +33,7 @@ export default function ButtonLink({
 
 ButtonLink.propTypes = {
 	children: PropTypes.node,
-	color: PropTypes.oneOf(["pink", "red", "blue"]),
+	color: PropTypes.oneOf(["pink", "red", "blue", "white"]),
 	primary: PropTypes.bool,
 	secondary: PropTypes.bool,
 	page: PropTypes.string,

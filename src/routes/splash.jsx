@@ -25,7 +25,7 @@ export default function Login() {
 					<hr className="bg-white/[0.2] w-16 " />
 				</div>
 
-				<ButtonLink page={"/signing"} color="#FFFFFF" secondary>
+				<ButtonLink page={"/signing"} color="white" secondary>
 					Sign Up
 				</ButtonLink>
 
