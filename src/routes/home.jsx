@@ -22,9 +22,9 @@ export default function home() {
 	const { register, handleSubmit } = useForm();
 
 	return (
-		<main className="flex flex-col gap-4 flex-1 p-10 justify-evenly">
-			<h1 className="text-3xl ml-2">What's new</h1>
-			<article className="grid grid-cols-6 grid-rows-8 gap-4 *:bg-[#333] *:rounded-md grid-flow-col">
+		<main className="flex flex-col flex-1 p-10 justify-evenly">
+			<h1 className="text-3xl">What's new</h1>
+			<article className="grid grid-cols-6 grid-rows-8 gap-4 *:bg-[#333] *:rounded-md">
 				<article className="col-span-2 row-span-8 flex flex-col p-6">
 					<header className="flex justify-between mb-10">
 						<img src={CalenderIcon} alt="" className="hover:brightness-200" />
